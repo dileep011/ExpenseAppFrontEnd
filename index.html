@@ -123,14 +123,14 @@
                 </button>
               </div>
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item  active-link">
-                  <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    <i class="icon-stacked_line_chart"></i> Dashboard
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" role="button" data-bs-toggle="dropdown"aria-expanded="false">
+                    <i></i> Dashboard
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="datatables.html"><i class="icon-supervised_user_circle"></i> Reports
+                  <a class="nav-link" href="datatables.html">
+                    <i class="icon-supervised_user_circle"></i> Reports
                   </a>
                 </li>
                 <li class="nav-item">
@@ -217,6 +217,16 @@
                         <span>Forgot Password</span>
                       </a>
                     </li>
+                    <li>
+                      <a class="dropdown-item" href="page-not-found.html">
+                        <span>Page Not Found</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="maintenance.html">
+                        <span>Maintenance</span>
+                      </a>
+                    </li>
                   </ul>
                 </li>
               </ul>
@@ -227,6 +237,7 @@
 
         <!-- App body starts -->
         <div class="app-body">
+
           <!-- Container starts -->
           <div class="container">
             <!-- Row start -->
@@ -236,7 +247,7 @@
                   <div class="card-body">
                     <!-- Row start -->
                     <div class="row">
-                      <div class="col-sm-15 col-50">
+                      <div class="col-sm-12 col-50">
                         <h3 class="mb-3">Total Expenses in One Week 🎉</h3>
                         <div id="tickets"></div>
                       </div>
