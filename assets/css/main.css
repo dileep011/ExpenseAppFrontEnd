@@ -13606,8 +13606,8 @@ a:hover {
 
 .header-actions {
   display: flex;
-  align-items: center;
-  flex-direction: row;
+  align-items: end;
+  flex-direction: column;
   justify-content: end;
 }
 .header-actions .header-action-icon {
